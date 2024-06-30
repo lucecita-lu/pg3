@@ -74,3 +74,12 @@
     height: 180px;
   }
   
+  #productosContainer .card{
+    backdrop-filter: blur(14px);
+  }
+
+  .card-img, .card-img-top {
+
+    max-height: 400px;
+    object-fit: cover;
+}
